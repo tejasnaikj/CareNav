@@ -42,8 +42,6 @@ Before running this project, make sure you have the following installed:
 
 5. **Connect a Device**
    - Connect a physical Android device using USB  
-     **OR**
-   - Start an Android Emulator from Android Studio.
 
 6. **Run the App**
    - Click the **Run ▶️ button** in Android Studio.
