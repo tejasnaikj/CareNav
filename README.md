@@ -15,6 +15,14 @@ Before running this project, make sure you have the following installed:
 
 ---
 
+## Get the Project
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/tejasnaikj/CareNav.git
+
+---
+
 ## Steps to Run the App
 
 1. **Install Android Studio**
@@ -22,7 +30,7 @@ Before running this project, make sure you have the following installed:
 
 2. **Open the Project**
    - Launch Android Studio.
-   - Click on **Open** and select this project folder.
+   - Click on **Open** and select CareNav/android_export.
 
 3. **Sync the Project**
    - Let Android Studio download required dependencies.
