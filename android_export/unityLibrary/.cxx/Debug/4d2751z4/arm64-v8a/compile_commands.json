@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Capstone/android_export/unityLibrary/.cxx/Debug/4d2751z4/arm64-v8a",
+  "command": "D:\\unity\\6000.2.7f2\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android24 --sysroot=D:/unity/6000.2.7f2/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DEXTERNAL_FRAME_PACING_CODE -Dswappywrapper_EXPORTS -IC:/Capstone/android_export/unityLibrary/src/main/cpp/FramePacing -isystem C:/Users/DELL/.gradle/caches/8.11/transforms/c65f3df9e47b7fb43b41020efd1a5f0d/transformed/jetified-games-frame-pacing-2.1.2/prefab/modules/swappy_static/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D__BIONIC_NO_PAGE_SIZE_MACRO -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -Wall -Wextra -pedantic -Werror -fno-limit-debug-info  -fPIC -o FramePacing\\CMakeFiles\\swappywrapper.dir\\UnitySwappyWrapper.cpp.o -c C:\\Capstone\\android_export\\unityLibrary\\src\\main\\cpp\\FramePacing\\UnitySwappyWrapper.cpp",
+  "file": "C:\\Capstone\\android_export\\unityLibrary\\src\\main\\cpp\\FramePacing\\UnitySwappyWrapper.cpp"
+}
+]

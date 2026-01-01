@@ -1,0 +1,28 @@
+# Android / Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Unity
+Library/
+Temp/
+Obj/
+Logs/
+
+# Flutter
+.dart_tool/
+
+# Binaries
+*.so
+*.dex
+*.jar
+*.apk
+*.aab
+
+# OS
+Thumbs.db
+.DS_Store

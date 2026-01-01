@@ -1,0 +1,36 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    // 1. Define the Kotlin version (Flutter requires this)
+    ext.kotlin_version = '1.9.25'
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // This is the Android Gradle Plugin version from your error logs (8.7.2)
+        classpath 'com.android.tools.build:gradle:8.7.2'
+
+        // 2. Add the Kotlin Gradle Plugin (Fixes the "Plugin not found" error)
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.4.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+
+        // 1. ADD THIS LINE. This is where the missing files live.
+        maven { url 'https://storage.googleapis.com/download.flutter.io' }
+
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

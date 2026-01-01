@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "490571494723",
+    "project_id": "medical-translator-project",
+    "storage_bucket": "medical-translator-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490571494723:android:64b473e97ff306d0e1ebf6",
+        "android_client_info": {
+          "package_name": "com.example.medical_translator_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsSIKIn57kq7wk_v0jra0FAONksUua6SU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

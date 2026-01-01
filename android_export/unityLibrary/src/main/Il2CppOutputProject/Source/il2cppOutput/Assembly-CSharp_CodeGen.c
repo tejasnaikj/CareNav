@@ -1,0 +1,84 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void FlutterBridge_OpenFlutterApp_m13F406E7EFD877810B62ECDE265CEEC67332D5F7 (void);
+extern void FlutterBridge__ctor_m8C7C130B9FDDA38785839365E9EC76BFDF6CA44B (void);
+extern void FixedStartController_Start_m79320CF5F0A42E61C070E9093BE6B7C85935A896 (void);
+extern void FixedStartController_PositionCameraAtPOI_mEDDD9B2968DF38AC20E4EE2BCC066609121DEE23 (void);
+extern void FixedStartController_ResetToReception_m292A66BC4BC0713397D8395C476B4247AB7C8218 (void);
+extern void FixedStartController__ctor_m6CE6EBA261C1897E806C7A60E1472734FA70D1C7 (void);
+extern void EnableNavigationUI_Start_m1A45C44C15F8468ED61100E0DB43B57086498F4B (void);
+extern void EnableNavigationUI__ctor_m85CADF3D4959212CF6C74C62700E6093FF9268AE (void);
+extern void U3CStartU3Ed__1__ctor_m6A2E4D30B7BE17D6C809C94018F287BB7216F314 (void);
+extern void U3CStartU3Ed__1_System_IDisposable_Dispose_m4693CAEC7DCB38BE71D5964372A3B81D1A2D4D77 (void);
+extern void U3CStartU3Ed__1_MoveNext_m395F858769C9FF6A094D0E593169ACCC3F497982 (void);
+extern void U3CStartU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD216057B7747A00DF9BAFAE5C960AD45D6740328 (void);
+extern void U3CStartU3Ed__1_System_Collections_IEnumerator_Reset_m813DDF82BAC8D07B531E3F7D8D65B1FD77A47F40 (void);
+extern void U3CStartU3Ed__1_System_Collections_IEnumerator_get_Current_m2EC3BD96CCD73C64C92E2F6FA13A824C25ABAC71 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[16] = 
+{
+	FlutterBridge_OpenFlutterApp_m13F406E7EFD877810B62ECDE265CEEC67332D5F7,
+	FlutterBridge__ctor_m8C7C130B9FDDA38785839365E9EC76BFDF6CA44B,
+	FixedStartController_Start_m79320CF5F0A42E61C070E9093BE6B7C85935A896,
+	FixedStartController_PositionCameraAtPOI_mEDDD9B2968DF38AC20E4EE2BCC066609121DEE23,
+	FixedStartController_ResetToReception_m292A66BC4BC0713397D8395C476B4247AB7C8218,
+	FixedStartController__ctor_m6CE6EBA261C1897E806C7A60E1472734FA70D1C7,
+	EnableNavigationUI_Start_m1A45C44C15F8468ED61100E0DB43B57086498F4B,
+	EnableNavigationUI__ctor_m85CADF3D4959212CF6C74C62700E6093FF9268AE,
+	U3CStartU3Ed__1__ctor_m6A2E4D30B7BE17D6C809C94018F287BB7216F314,
+	U3CStartU3Ed__1_System_IDisposable_Dispose_m4693CAEC7DCB38BE71D5964372A3B81D1A2D4D77,
+	U3CStartU3Ed__1_MoveNext_m395F858769C9FF6A094D0E593169ACCC3F497982,
+	U3CStartU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD216057B7747A00DF9BAFAE5C960AD45D6740328,
+	U3CStartU3Ed__1_System_Collections_IEnumerator_Reset_m813DDF82BAC8D07B531E3F7D8D65B1FD77A47F40,
+	U3CStartU3Ed__1_System_Collections_IEnumerator_get_Current_m2EC3BD96CCD73C64C92E2F6FA13A824C25ABAC71,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[16] = 
+{
+	3965,
+	3965,
+	3965,
+	3965,
+	3965,
+	3965,
+	3869,
+	3965,
+	3321,
+	3965,
+	3781,
+	3869,
+	3965,
+	3869,
+	9608,
+	3965,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	16,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

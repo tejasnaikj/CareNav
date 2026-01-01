@@ -1,0 +1,35 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+
+        // 1. ADD THIS LINE HERE
+        maven { url 'https://storage.googleapis.com/download.flutter.io' }
+
+        flatDir {
+            dirs 'unityLibrary/libs'
+        }
+    }
+}
+
+rootProject.name = 'launcher'
+
+include ':launcher'
+include ':unityLibrary'
+include 'unityLibrary:xrmanifest.androidlib'
+
+
+// Bind the Flutter module
+setBinding(new Binding([gradle: this]))
+evaluate(new File(settingsDir.parentFile, 'flutter_module/.android/include_flutter.groovy'))
+include ':flutter_module'
+project(':flutter_module').projectDir = new File(settingsDir.parentFile, 'flutter_module/.android')
